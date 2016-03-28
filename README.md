@@ -9,6 +9,8 @@ Avläs resistans värdet på dom två och ange det i skriptet. Har du inte det e
 Sedan måste du mäta mellan jord och 5v på din arduino. Om mätaren anger 4.9 eller 4.8 så skall du i skriptet byta ut 5.0 med det värdet.
 Det är också viktigt för att du ska få ett exakt värde.
 
+<img src="voltavlasning.png">
+
 Avläsning i din Raspberry pi sker genom att du ansluter din arduino via USB i din Raspberry Pi och använder serial för att avläsa.
 
 Lycka till!
