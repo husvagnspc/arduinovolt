@@ -17,7 +17,7 @@ void setup(){
   Serial.begin(9600);
 }
 void loop(){
-   // read the value at analog input
+   // läs värdet vid analoga signalen
    value = analogRead(analogInput);
    vout = (value * 5.0) / 1024.0; // 5.0 justeras beroende på arduino
    vin = vout / (R2/(R1+R2)); 
